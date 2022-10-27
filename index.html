@@ -6,69 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="./src/fonts.css">
+    <script src="https://kit.fontawesome.com/5a821d7f34.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="w-100% h-auto text-center">
+    <div class=" h-max text-center">
 
-        <main class="font-roboto w-[350px] m-auto ">
+        <main class="font-roboto w-[350px] m-auto pb-10">
             <article>
 
                 <div class="flex flex-col justify-center items-center">
                     <div>
-                        <h1 class="font-brush text-6xl p-6 mt-6 mb-6">Instagram</h1>
+                        <h1 class="font-brush text-6xl p-6 mt-4 mb-4">Instagram</h1>
                     </div>
                     <div  class="w-[270px]">
                         <form action="">
-                            <div class="flex flex-col flex-wrap space-y-2">
+                            <div class="flex flex-col flex-wrap ">
 
-                                <input class="inputs" type="text" placeholder="Phone number, username, or email">
-                                <input class="inputs" type="password" placeholder="Password">
-                                <button type="button">Log in</button>
+                                <input class="inputs mb-2" type="text" placeholder="Phone number, username, or email">
+                                <input class="inputs mb-4" type="password" placeholder="Password">
+                                <button class="bg-[#afdcf9] p-1 text-white  rounded text-sm 
+                                font-semibold shadow-sm mb-4"  
+                                type="button">Log in</button>
 
-                                <div>
-                                    <div></div>
-                                    <div>OR</div>
-                                    <div></div>
+                                <div class="flex justify-center items-center mb-4">
+                                    <div class="border-t border-gray-200 w-full"></div>
+                                    <div class="font-semibold text-[12px]  text-gray-400 px-6 " >OR</div>
+                                    <div class="border-t border-gray-200  w-full" ></div>
                                 </div>
 
-                                <button><span>F</span><span>Log in with Facebook</span> </button>
+                                <button class="text-[#385185] flex justify-center items-center mb-4"><span><i class="fa-brands fa-square-facebook  pr-2"></i></span><span class="text-sm font-semibold">Log in with Facebook</span> </button>
                             </div>
 
-                            <a>Forgot Password?</a>
-                            <p> Don't have an account? <a href="#">Sign up</a></p>
+                            <a class="text-gray-800 text-[12px] mb-10 block">Forgot Password?</a>
+                            <p class="text-sm mb-10 w-full  py-6" > Don't have an account? <a class="text-[#389df6] font-semibold " href="#">Sign up</a></p>
                         </form>
-                    </>
+                    </div>
                 </div>
                 <div>
-                    <p>Get the app.</p>
-                    <a href="/"><img src="https://static.cdninstagram.com/rsrc.php/v3/yT/r/0BpxdgM3WUr.png" alt=""></a>
-                    <a href="/"><img src="https://static.cdninstagram.com/rsrc.php/v3/y9/r/LjIQEL8csb0.png" alt=""></a>
+                    <p class="text-sm pb-4">Get the app.</p>
+                    <div class="flex justify-center items-center space-x-2">
+
+                        <a href="/"><img class="h-10" src="https://static.cdninstagram.com/rsrc.php/v3/yT/r/0BpxdgM3WUr.png" alt=""></a>
+                        <a href="/"><img class="h-10" src="https://static.cdninstagram.com/rsrc.php/v3/y9/r/LjIQEL8csb0.png" alt=""></a>
+                    </div>
                 </div>
             </article>
         </main>
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="/">Meta</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">Jobs</a></li>
-                    <li><a href="/">Help</a></li>
-                    <li><a href="/">API</a></li>
-                    <li><a href="/">Privacy</a></li>
-                    <li><a href="/">Terms</a></li>
-                    <li><a href="/">Top Accounts</a></li>
-                    <li><a href="/">Hashtags</a></li>
-                    <li><a href="/">Locations</a></li>
-                    <li><a href="/">Instagram Lite</a></li>
-                    <li><a href="/">Contact</a></li>
-                    <li><a href="/">Uploading & Non-Users</a></li>
+        <footer class="text-sm text-gray-400 w-full">
+            <div >
+                <ul class="flex flex-wrap w-11/12 m-auto justify-center items-center pb-4">
+                    <li class="footer--list"><a href="/">Meta</a></li>
+                    <li class="footer--list"><a href="/">About</a></li>
+                    <li class="footer--list"><a href="/">Blog</a></li>
+                    <li class="footer--list"><a href="/">Jobs</a></li>
+                    <li class="footer--list"><a href="/">Help</a></li>
+                    <li class="footer--list"><a href="/">API</a></li>
+                    <li class="footer--list"><a href="/">Privacy</a></li>
+                    <li class="footer--list"><a href="/">Terms</a></li>
+                    <li class="footer--list"><a href="/">Top Accounts</a></li>
+                    <li class="footer--list"><a href="/">Hashtags</a></li>
+                    <li class="footer--list"><a href="/">Locations</a></li>
+                    <li class="footer--list"><a href="/">Instagram Lite</a></li>
+                    <li class="footer--list"><a href="/">Contact</a></li>
+                    <li class="footer--list"><a href="/">Uploading & Non-Users</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="flex justify-center mb-4">
                 <div>
-                    <input list="Idioma" value="English">
+                    <input class="w-20" list="Idioma" value="English">
     
                     <datalist id="Idioma">
                         <option value="English" >

@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .inputs{
-    @apply border border-gray-300 rounded-sm pt-3 pb-2 text-[12px];
+    @apply border border-gray-300 rounded pt-[9px] pb-[8px] pl-2 text-[12px];
+}
+.footer--list{
+    @apply px-2 h-4 text-sm inline-block pb-1;
 }
